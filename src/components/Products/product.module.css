@@ -1,0 +1,41 @@
+.productsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));;
+  gap: 1rem;
+  padding: 2rem 1.5rem;
+}
+
+.product {
+  border: 1px solid #8f78c4;
+  padding: 2rem 1rem 0rem 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+
+.rate {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem
+}
+
+.rate > svg {
+  width: initial;
+}
+
+.product button {
+  margin-left: auto;
+  margin-top: auto;
+  color: #8f78c4;
+}
+
+.product h1 {
+  color: #8f78c4;
+}
+
+.more {
+  color: #8f78c4;
+  grid-column: 1/-1; 
+  text-align: center;
+}
